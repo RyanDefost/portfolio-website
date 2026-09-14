@@ -1,5 +1,6 @@
 {
   "name": "portfolio-website",
+  "homepage": "https://ryandefost.github.io/portfolio-website/",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -7,10 +8,11 @@
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeplay": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "gh-pages": "^6.3.0",
     "prop-types": "^15.8.1",
     "react": "^19.2.5",
     "react-dom": "^19.2.5",
