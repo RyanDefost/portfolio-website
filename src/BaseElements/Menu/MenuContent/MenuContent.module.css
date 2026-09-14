@@ -1,0 +1,98 @@
+.menuContent {
+    width: 100%;
+
+    display: block;
+}
+
+.projectButton {
+    height: 45px;
+    width: 98%;
+
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+
+    margin-top: 20px;
+
+    padding-top: 5px;
+    padding-left: 10px;
+
+    border: none;
+    border: solid 1px black;
+
+    background:
+        linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(255, 255, 255, 0) 100%),
+        url("src/assets/GamePreview.png");
+
+    font-family: "Khand", sans-serif;
+    color: white;
+
+    text-align: left;
+    font-size: 1.2rem;
+
+    overflow: hidden;
+
+    transition: all 0.1s ease;
+}
+
+.projectButton:hover {
+    border: solid 1px black;
+    height: 65px;
+
+    color: black;
+    background:
+        linear-gradient(90deg, rgb(255, 194, 121, 1) 0%, rgba(255, 255, 255, 0) 100%),
+        url("src/assets/GamePreview.png");
+
+
+    transition-delay: 75ms;
+    transition-property: all;
+}
+
+.projectButton:hover::after {
+    content: "Unity, CS | 2026";
+    text-decoration: underline;
+}
+
+.projectButton::after {
+    content: " ";
+}
+
+.archivesButton {
+    height: 25px;
+    width: 48%;
+
+    margin-top: 20px;
+
+    color: white;
+    font-size: 0.75rem;
+
+    border: none;
+    border: solid 1px black;
+    background-color: black;
+}
+
+.archivesButton:hover {
+    text-decoration: underline;
+}
+
+.headerText {
+    padding-top: 30px;
+    padding-left: 15px;
+
+    text-decoration-line: underline;
+    font-size: 40px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+    transition-duration: 0.5s;
+}
+
+.projectButton:hover a {
+    text-decoration: none;
+    color: black;
+
+    transition-duration: 0.5s;
+}

@@ -1,0 +1,36 @@
+.profile {
+    display: flex;
+    justify-content: left;
+    align-items: top;
+}
+
+.profileImage {
+    height: 15vw;
+    margin: 10px;
+
+    margin-top: 20px;
+    margin-left: 20px;
+
+    border: 3px solid black;
+    border-radius: 10px;
+
+    /* max-height: 400px; */
+
+    transition-duration: 0.5s;
+}
+
+h1 {
+    margin: 0;
+
+    font-size: 7vw;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+h2 {
+    margin: 0;
+    margin-left: 25px;
+
+    font-size: 2vw;
+    transition: 0.3s;
+}

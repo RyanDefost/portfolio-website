@@ -1,0 +1,73 @@
+.headerBase {
+    background-color: black;
+    padding: 0%;
+    margin: 0;
+
+    height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 33%;
+    height: inherit;
+
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+    font-weight: bold;
+}
+
+.center {
+    width: 33%;
+    height: inherit;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 1rem;
+    white-space: nowrap;
+
+    animation: fadeInDown 1s ease-out;
+}
+
+.profile {
+    rotate: 0deg;
+
+    height: 60%;
+    padding: 10px;
+    border-radius: 35%;
+
+    transition-duration: 0.5s;
+}
+
+.profile:hover {
+    rotate: 360deg;
+    transition-duration: 0.5s;
+}
+
+h {
+    color: white;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

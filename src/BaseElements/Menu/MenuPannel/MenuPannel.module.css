@@ -1,0 +1,13 @@
+.MenuPannel {
+    display: flex;
+
+    margin: 5px;
+    margin-right: 25px;
+    border-radius: 10px;
+
+    width: 200px;
+
+    background-color: rgba(0, 0, 0, 0.75);
+
+    min-width: 300px;
+}
