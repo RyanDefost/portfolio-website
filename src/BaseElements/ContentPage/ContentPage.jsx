@@ -1,16 +1,14 @@
 import styles from "./ContentPage.module.css"
 import MenuPannel from "../Menu/MenuPannel/MenuPannel";
 
-function ContentPage({ content }) {
+function ContentPage({ content, pannelContent }) {
 
     return (
         <div className={styles.base}>
-            <MenuPannel />
+            <MenuPannel pannelContent={pannelContent} />
 
             <div className={styles.ContentPage}>
-                <div className={styles.profile}>
-                    <div> {content} </div>
-                </div>
+                {content}
             </div >
         </div>
     );

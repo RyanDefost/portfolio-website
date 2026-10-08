@@ -1,0 +1,30 @@
+.MenuStaticInfo {
+    width: 80%;
+}
+
+
+.MenuStaticInfo h1 {
+    padding-top: 25px;
+    padding-left: 25px;
+
+    font-size: 35px;
+
+    color: white;
+    text-decoration: underline;
+}
+
+.MenuStaticInfo li {
+    font-size: 25px;
+
+    padding-top: 10px;
+    color: white;
+
+    list-style: none;
+
+    line-height: 115%;
+}
+
+.imagetging {
+    width: 10%;
+    height: 10%;
+}

@@ -6,7 +6,7 @@ function HeaderBase() {
         <div className={styles.headerBase}>
             <div className={styles.container}>
                 <img className={styles.profile}
-                    src="../src/assets/FoGyXtFaEAAtODP.png" alt="fox_profile"
+                    src="portfolio-website/src/assets/FoGyXtFaEAAtODP.png" alt="fox_profile"
                 />
 
                 <NavLink to="/">R//dF</NavLink>

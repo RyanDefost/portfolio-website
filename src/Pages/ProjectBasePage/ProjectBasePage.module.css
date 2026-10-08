@@ -1,0 +1,118 @@
+.projectBasePage {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.headInfo h2 {
+    font-size: 3vh;
+}
+
+.headInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.pageHead {
+    padding-top: 10px;
+    padding-bottom: 25px;
+
+
+    /* height: 30vh; */
+    width: 100%;
+
+    transition-duration: 0.5s;
+}
+
+.infoPannel {
+    width: 100%;
+    height: 100%;
+
+    padding-left: 15px;
+
+
+    display: inline-grid;
+
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 1fr;
+
+
+    font-weight: bold;
+    font-size: 1vw;
+
+}
+
+.pageHeadContent h3 {
+    font-size: 2vw;
+    margin-bottom: 0;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.pageHeadContent {
+    width: 50%;
+    height: 15vmax;
+
+    margin: 10px;
+
+    background-color: hsla(28, 19%, 85%);
+
+    border: solid 2px black;
+    border-radius: 5px;
+}
+
+.pageHead img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+
+}
+
+.projectInfo {
+    width: 100%;
+}
+
+.divider {
+    height: 3vh;
+
+    margin: -10%;
+    margin-top: 1.5vh;
+    margin-bottom: 1.5vh;
+
+    border-radius: 0.5vh;
+
+    background-color: #e0d8d1;
+}
+
+.imageContent img {
+    width: 40%;
+
+    margin-top: 25px;
+    margin-right: 10px;
+
+    border: solid 1px black;
+    border-radius: 5px;
+
+    display: inline-grid;
+
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 1fr;
+}
+
+.imageContent img:hover {
+    scale: 101%;
+    border: solid 1.1px black;
+}
+
+.imageContent p {
+    width: 40%;
+
+    margin-top: 25px;
+    margin-right: 10px;
+
+    display: inline-grid;
+
+    grid-template-columns: auto auto;
+    grid-template-rows: auto 1fr;
+}

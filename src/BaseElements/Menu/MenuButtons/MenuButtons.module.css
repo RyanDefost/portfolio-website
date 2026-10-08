@@ -37,7 +37,10 @@
 
 .active {
     background-color: rgb(255, 194, 121);
+    animation: ColorSelect 1s ease;
 }
+
+.inactive {}
 
 .active a {
     text-decoration: none;
@@ -51,7 +54,7 @@
     border: solid 1px black;
 
     color: black;
-    background-color: rgb(255, 194, 121);
+    background-color: rgba(255, 195, 121, 0.9);
 
     transition-duration: 0.5s;
 }
@@ -61,5 +64,16 @@
     color: black;
 
     transition-duration: 0.5s;
+}
 
+@keyframes ColorSelect {
+    from {
+        color: white;
+        background-color: rgba(255, 203, 138, 0.75);
+    }
+
+    to {
+        color: black;
+        background-color: rgb(255, 194, 121);
+    }
 }

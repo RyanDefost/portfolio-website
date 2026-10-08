@@ -1,5 +1,6 @@
 import { Route, Routes, href, NavLink, useSearchParams } from "react-router-dom";
 import styles from "./MenuContent.module.css"
+import ProjectButton from "../../ProjectButton/ProjectButton";
 
 function MenuContent({ content }) {
     const [searchParams, setSearchParams] = useSearchParams();
@@ -11,35 +12,12 @@ function MenuContent({ content }) {
     return (
         <div className={styles.menuContent}>
             <h className={styles.headerText}>Projects</h>
-            <button id="1" className={styles.projectButton}>
-                <NavLink to="/projects?project=Crafted_Connections">
-                    Crafted Connections<br /></NavLink>
-            </button>
 
-            <button id="2" className={styles.projectButton}>
-                <NavLink to="/projects?project=Wave_Function_Collapse">
-                    Wave Function Collapse<br /></NavLink>
-            </button>
-
-            <button id="3" className={styles.projectButton}>
-                <NavLink to="/projects?project=Examen_MA">
-                    Examen MA<br /></NavLink>
-            </button>
-
-            <button id="4" className={styles.projectButton}>
-                <NavLink to="/projects?project=Examen_MA">
-                    Examen MA<br /></NavLink>
-            </button>
-
-            <button id="5" className={styles.projectButton}>
-                <NavLink to="/projects?project=Examen_MA">
-                    Examen MA<br /></NavLink>
-            </button>
-
-            <button id="6" className={styles.projectButton}>
-                <NavLink to="/projects?project=Examen_MA">
-                    Examen MA<br /></NavLink>
-            </button>
+            <ProjectButton name={"Wave Function Collapse"} infoText={"Unity, CS | 2026"} />
+            <ProjectButton name={"Crafted Connections"} infoText={"Unity, CS | 2025"} />
+            <ProjectButton name={"Game of Life"} infoText={"C++ | 2025"} />
+            <ProjectButton name={"Empire Falls"} infoText={"Unity, CS | 2024"} />
+            <ProjectButton name={"Potion Party"} infoText={"Unreal, C++ | 2023"} />
 
             <button id="0" className={styles.archivesButton}>
                 <NavLink to="/projects">

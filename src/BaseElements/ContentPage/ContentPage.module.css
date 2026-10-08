@@ -1,17 +1,19 @@
 .base {
+    width: 100%;
     display: flex;
 }
 
 .ContentPage {
-    margin: 5px;
+    margin: 10px;
     border-radius: 10px;
 
     height: auto;
-    width: 100vw;
+    width: 100%;
 
+    overflow: -moz-scrollbars-vertical;
     overflow: scroll;
 
-    background-image: url(src/assets/StripedWhiteBackground.png);
+    background-image: url(portfolio-website/src/assets/StripedWhiteBackground.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
 
@@ -19,7 +21,6 @@
 
     animation: fadeInLeft 1s ease-out;
 }
-
 
 @keyframes fadeInLeft {
     from {
